@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bully_discs",
+  "version": "${version}",
+  "name": "BULLY Discs",
+  "description": "Nineteen original BULLY-inspired instrumental music discs with a golden ritual craft. Fan tribute — no Kanye West audio.",
+  "authors": ["yaros"],
+  "contact": {
+    "homepage": "https://github.com/yaros/bully-discs",
+    "sources": "https://github.com/yaros/bully-discs"
+  },
+  "license": "MIT",
+  "icon": "assets/bully_discs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.bullydiscs.BullyDiscs"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

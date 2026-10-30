@@ -1,0 +1,21 @@
+{
+  "king": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_king", "stream": true}] },
+  "this_a_must": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_this_a_must", "stream": true}] },
+  "father": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_father", "stream": true}] },
+  "all_the_love": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_all_the_love", "stream": true}] },
+  "punch_drunk": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_punch_drunk", "stream": true}] },
+  "whatever_works": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_whatever_works", "stream": true}] },
+  "mamas_favorite": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_mamas_favorite", "stream": true}] },
+  "sisters_and_brothers": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_sisters_and_brothers", "stream": true}] },
+  "bully": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_bully", "stream": true}] },
+  "highs_and_lows": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_highs_and_lows", "stream": true}] },
+  "i_cant_wait": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_i_cant_wait", "stream": true}] },
+  "white_lines": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_white_lines", "stream": true}] },
+  "circles": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_circles", "stream": true}] },
+  "preacher_man": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_preacher_man", "stream": true}] },
+  "beauty_and_the_beast": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_beauty_and_the_beast", "stream": true}] },
+  "damn": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_damn", "stream": true}] },
+  "last_breath": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_last_breath", "stream": true}] },
+  "this_one_here": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_this_one_here", "stream": true}] },
+  "losing_your_mind": { "subtitle": "subtitles.item.music_disc", "sounds": [{"name": "bully_discs:bully_discs_losing_your_mind", "stream": true}] }
+}
