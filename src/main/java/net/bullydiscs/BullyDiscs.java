@@ -2,10 +2,9 @@ package net.bullydiscs;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Item;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
@@ -31,19 +30,14 @@ public class BullyDiscs implements ModInitializer {
     }
 
     private void registerDisc(String track) {
-        Identifier soundId = Identifier.of(MOD_ID, track);
+        Identifier soundId = new Identifier(MOD_ID, track);
         SoundEvent registeredSound = Registry.register(Registries.SOUND_EVENT, soundId, SoundEvent.of(soundId));
 
-        Identifier songId = Identifier.of(MOD_ID, track);
-        RegistryKey<net.minecraft.block.jukebox.JukeboxSong> songKey =
-                RegistryKey.of(RegistryKeys.JUKEBOX_SONG, songId);
-
-        Identifier itemId = Identifier.of(MOD_ID, "bully_disc_" + track);
+        Identifier itemId = new Identifier(MOD_ID, "bully_disc_" + track);
         Rarity rarity = "this_one_here".equals(track) ? Rarity.EPIC : Rarity.RARE;
-        Item disc = new Item(new Item.Settings()
+        Item disc = new MusicDiscItem(0, registeredSound, new Item.Settings()
                 .maxCount(1)
-                .rarity(rarity)
-                .jukeboxPlayable(songKey));
+                .rarity(rarity), 0);
         Registry.register(Registries.ITEM, itemId, disc);
     }
 }
