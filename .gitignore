@@ -6,3 +6,7 @@ out/
 *.wav
 remappedSrc/
 .gradle-downloads/
+.modrinth/
+.media/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

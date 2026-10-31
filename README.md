@@ -63,7 +63,9 @@ The full core list is in `tools/make_recipes.py` and every recipe file in `data/
 ./gradlew build   # for the version set in gradle.properties
 ```
 
-For the 1.21.1 build, the same sources are compiled with 1.21.1 mappings/dependencies (see the `1.21` branch or CI workflow).
+For the 1.21.1 build, the same sources are compiled with 1.21.1 mappings/dependencies — see the [`1.21` branch](https://github.com/doeseryt/bully-discs/tree/1.21).
+
+**Download:** [Modrinth — BULLY Discs](https://modrinth.com/mod/bully-discs)
 
 ## License
 

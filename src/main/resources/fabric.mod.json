@@ -4,10 +4,10 @@
   "version": "${version}",
   "name": "BULLY Discs",
   "description": "Nineteen original BULLY-inspired instrumental music discs with a golden ritual craft. Fan tribute — no Kanye West audio.",
-  "authors": ["yaros"],
+  "authors": ["doeseryt"],
   "contact": {
-    "homepage": "https://github.com/yaros/bully-discs",
-    "sources": "https://github.com/yaros/bully-discs"
+    "homepage": "https://modrinth.com/mod/bully-discs",
+    "sources": "https://github.com/doeseryt/bully-discs"
   },
   "license": "MIT",
   "icon": "assets/bully_discs/icon.png",
